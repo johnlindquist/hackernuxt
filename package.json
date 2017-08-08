@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "nuxt": "^1.0.0-rc3",
     "tachyons": "^4.7.4",
     "tachyons-debug": "^1.1.10"
