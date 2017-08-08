@@ -13,7 +13,9 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0-rc3"
+    "nuxt": "^1.0.0-rc3",
+    "tachyons": "^4.7.4",
+    "tachyons-debug": "^1.1.10"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
