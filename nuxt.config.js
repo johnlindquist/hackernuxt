@@ -24,6 +24,5 @@ module.exports = {
   ],
   build: {
     vendor: ["axios"]
-  },
-  plugins: ["~/plugins/axios"]
+  }
 }
