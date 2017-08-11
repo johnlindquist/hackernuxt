@@ -12,10 +12,6 @@ export const mutations = {
 
 export const actions = {
   async LOAD_ITEMS({ commit }, dataUrl) {
-    /*
-      /ask -> askstories.json
-    */
-
     const response = await axios.get(dataUrl)
     const ids = response.data
     const tenIds = ids.slice(0, 10)
