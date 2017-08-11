@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "date-fns": "^1.28.5",
     "nuxt": "^1.0.0-rc3",
     "tachyons": "^4.7.4",
     "tachyons-debug": "^1.1.10"

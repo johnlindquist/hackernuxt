@@ -2,14 +2,16 @@
     <div class="code">
         <ul class="list pa2">
             <li class="item" v-for="item in items" :key="item.id">
-                <div class="score">
+                <div class="score f4">
                     {{item.score}}
                 </div>
                 <div class="title">
                     {{item.title}}
                 </div>
                 <div class="details">
-                    by {{item.by}} {{item.time}}
+                    by {{item.by}}
+                    <!-- Adding a bit of extra styling -->
+                    <p class="ma0 i f6">{{item.time | timeSince}} ago</p>
                 </div>
                 <div class="comments">
                     {{item.descendants}} comments
@@ -32,6 +34,7 @@ export default {
     display: grid;
     grid: repeat(4, 1.5em) / repeat(10, 1fr);
     grid-row-gap: 1em;
+    grid-column-gap: 1em;
 }
 
 .score {
@@ -51,11 +54,13 @@ export default {
 .comments {
     grid-row: 3 / -1;
     grid-column: 2 / 6;
+    align-self: center;
 }
 
 .details {
     grid-row: 3 / -1;
     grid-column: 6 / -2;
     justify-self: end;
+    align-self: center;
 }
 </style>
