@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h1>Ask</h1>
         <Items>
         </Items>
     </div>

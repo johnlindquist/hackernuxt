@@ -10,7 +10,6 @@
                 </div>
                 <div class="details">
                     by {{item.by}}
-                    <!-- Adding a bit of extra styling -->
                     <p class="ma0 i f6">{{item.time | timeSince}} ago</p>
                 </div>
                 <div class="comments">
