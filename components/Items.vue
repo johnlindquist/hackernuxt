@@ -1,6 +1,6 @@
 <template>
     <div class="code">
-        <ul class="list pa2">
+        <ul class="list ph2 mv0">
             <li class="item f6" v-for="item in items" :key="item.id">
                 <div class="score f4">
                     {{item.score}}

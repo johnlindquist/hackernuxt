@@ -1,10 +1,10 @@
 <template>
     <div>
-        <div class="bb mb4">
+        <div class="bb b--gray pb2 mb4">
             <div class="mb1">
                 <span class="i">{{item.id}} </span>
                 <nuxt-link :to="'/user/' + item.by">{{item.by}}</nuxt-link> {{item.time | timeSince}} ago</div>
-            <div class="f6" v-html="item.text"></div>
+            <div class="f6 mb1" v-html="item.text"></div>
             <div class="i f6 gray">
                 kids: {{item.kids}}
             </div>

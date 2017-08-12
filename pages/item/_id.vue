@@ -1,5 +1,5 @@
 <template>
-    <div class="pa4 code">
+    <div class="pa2 code">
         <div class="f2 mb2">{{item.title}}
             <template v-if="item.url">
                 <a :href="item.url">{{item.url | hostname}}</a>
@@ -10,7 +10,7 @@
             <span class="i"> {{item.time | timeSince}} ago</span>
         </div>
     
-        <ul>
+        <ul class="pa0">
             <comment v-for="id in item.kids" :key="id" :id="id"></comment>
         </ul>
     </div>

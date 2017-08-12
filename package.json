@@ -17,7 +17,6 @@
     "date-fns": "^1.28.5",
     "nuxt": "^1.0.0-rc3",
     "tachyons": "^4.7.4",
-    "tachyons-debug": "^1.1.10",
     "url": "^0.11.0"
   },
   "devDependencies": {
@@ -29,6 +28,7 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "tachyons-debug": "^1.1.10"
   }
 }
